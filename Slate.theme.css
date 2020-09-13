@@ -38,7 +38,7 @@
   --font-weight-normal: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
-  --titlebar-height:0px;
+  --titlebar-height:20px;
   --titlebar-button-color:#a0a0a0;
   --win32-close-background-hover:transparent;
   --win32-close-background-active:transparent;
