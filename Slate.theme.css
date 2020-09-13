@@ -10,7 +10,7 @@
 :root {
   --slate-version: "Slate 1.1.7";
   --border-radius: 3px;
-  --button-border-radius: 2px;
+  --button-border-radius: 0px;
   --accent-solid: rgba(var(--accent), 1);
   --bd-blue: var(--accent-solid);
   --bd-blue-hover: rgb(var(--accent));
@@ -25,11 +25,11 @@
   --spacing-triple: calc(var(--spacing) * 3);
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --font-size-xsm:9px;
-  --font-size-sm: 11px;
-  --font-size: 12px;
-  --font-size-md: 14px;
-  --font-size-lg: 28px;
+  --font-size-xsm:11px;
+  --font-size-sm: 15px;
+  --font-size: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 20px;
   --font-size-xl: 32px;
   --font-size-xxl: 42px;
   --line-height-sm: 1;
@@ -38,30 +38,30 @@
   --font-weight-normal: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
-  --titlebar-height: 28px;
+  --titlebar-height:0px;
   --titlebar-button-color:#a0a0a0;
   --win32-close-background-hover:transparent;
   --win32-close-background-active:transparent;
-  --toolbar-height: 50px;
+  --toolbar-height: 60px;
   --toolbar-text-normal: #d1d5da;
   --toolbar-text-muted: #959da5;
   --toolbar-text-focus: #ffffff;
+  --toolbar-background:transparent;
   --toolbar-search-background: transparent;
   --toolbar-search-border: var(--toolbar-border);
-  --toolbar-background: transparent;
   --toolbar-background-hover: transparent;
   --toolbar-background-active:transparent;
   --toolbar-background-alt: transparent;
   --toolbar-border: transparent;
-  --item-height: 34px;
+  --item-height: 35px;
   --sidebar-width: 260px;
   --member-height: 42px;
   --channel-height: 32px;
-  --avatar-size-xsm:18px;
-  --avatar-size-sm: 24px;
-  --avatar-size: 28px;
-  --avatar-size-lg: 45px;
-  --avatar-size-xlg: 64px;
+  --avatar-size-xsm:25px;
+  --avatar-size-sm: 30px;
+  --avatar-size: 30px;
+  --avatar-size-lg: 40px;
+  --avatar-size-xlg: 65px;
   --backdrop: rgb(0 0 0 / 0.4);
   --elevation-1: 0 8px 24px rgba(0,0,0,0.15);
   --elevation-2: 0 2px 7px rgba(12, 7, 7, 0.7);
@@ -10481,3 +10481,7 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ .guildSeparator-3s6
   }
 }
 
+
+.da-bodyInner, /*User Cards*/
+.da-grid /*Embedded Items*/
+{ background: #2f3136 !important;}
